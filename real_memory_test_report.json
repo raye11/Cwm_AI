@@ -1,0 +1,173 @@
+{
+  "summary": {
+    "baseline_memory_mb": 893.17578125,
+    "peak_memory_mb": 1339.484375,
+    "recommended_memory_mb": 1941,
+    "test_count": 5
+  },
+  "memory_timeline": [
+    {
+      "timestamp": "2025-11-09T14:10:50.704435",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:51.710950",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:52.725586",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:53.728670",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:54.745138",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:55.755972",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:56.761123",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:57.762273",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:58.765516",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:10:59.773566",
+      "memory_mb": 893.17578125,
+      "stage": "baseline"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:08.056303",
+      "memory_mb": 893.1796875,
+      "stage": "test_0_before"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:14.333094",
+      "memory_mb": 1339.08984375,
+      "stage": "test_0_after"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:20.500173",
+      "memory_mb": 1339.20703125,
+      "stage": "test_1_before"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:22.318602",
+      "memory_mb": 1339.33203125,
+      "stage": "test_1_after"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:31.932494",
+      "memory_mb": 1339.33984375,
+      "stage": "test_2_before"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:33.303419",
+      "memory_mb": 1339.33984375,
+      "stage": "test_2_after"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:39.953785",
+      "memory_mb": 1339.4609375,
+      "stage": "test_3_before"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:41.586359",
+      "memory_mb": 1339.484375,
+      "stage": "test_3_after"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:49.949574",
+      "memory_mb": 1339.4296875,
+      "stage": "test_4_before"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:51.302518",
+      "memory_mb": 1339.44921875,
+      "stage": "test_4_after"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:54.309241",
+      "memory_mb": 1339.44921875,
+      "stage": "final"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:56.312521",
+      "memory_mb": 1339.40625,
+      "stage": "final"
+    },
+    {
+      "timestamp": "2025-11-09T14:11:58.317282",
+      "memory_mb": 1339.40625,
+      "stage": "final"
+    },
+    {
+      "timestamp": "2025-11-09T14:12:00.330218",
+      "memory_mb": 1339.36328125,
+      "stage": "final"
+    },
+    {
+      "timestamp": "2025-11-09T14:12:02.343409",
+      "memory_mb": 1339.36328125,
+      "stage": "final"
+    }
+  ],
+  "test_results": [
+    {
+      "test_id": 0,
+      "text": "楼道灯坏了三天，晚上回家很不方便，能尽快修一下吗？",
+      "memory_before": 893.1796875,
+      "memory_after": 1339.08984375,
+      "memory_used": 445.91015625
+    },
+    {
+      "test_id": 1,
+      "text": "地下车库有陌生人员徘徊，感觉不太安全，请加强巡逻",
+      "memory_before": 1339.20703125,
+      "memory_after": 1339.33203125,
+      "memory_used": 0.125
+    },
+    {
+      "test_id": 2,
+      "text": "我家老人突然头晕呕吐，急需医疗帮助！",
+      "memory_before": 1339.33984375,
+      "memory_after": 1339.33984375,
+      "memory_used": 0.0
+    },
+    {
+      "test_id": 3,
+      "text": "保洁阿姨打扫得很干净，楼道一尘不染，为你们的辛勤付出点赞！",
+      "memory_before": 1339.4609375,
+      "memory_after": 1339.484375,
+      "memory_used": 0.0234375
+    },
+    {
+      "test_id": 4,
+      "text": "电梯经常故障，上周被困了十分钟，太吓人了",
+      "memory_before": 1339.4296875,
+      "memory_after": 1339.44921875,
+      "memory_used": 0.01953125
+    }
+  ],
+  "timestamp": "2025-11-09T14:12:04.358174"
+}
