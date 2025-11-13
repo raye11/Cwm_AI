@@ -1,32 +1,29 @@
-项目概述
-社区智理AI平台是基于人工智能技术的基层治理智能化解决方案，致力于实现社区治理的智能化、精准化、人性化。通过先进的多任务学习技术，平台能够快速识别、分类和处理各类社区事务，显著提升服务响应速度和处理效率。
+# Community Intelligent Governance AI Platform 
 
-核心特性
-🚀 高效智能
-多任务并行处理：同步实现问题分类、情感分析、紧急程度识别
+## 📖 Overview
 
-快速响应：毫秒级事务处理，大幅提升服务效率
+The Community Intelligent Governance AI Platform is an AI-powered solution for grassroots governance, designed to achieve **intelligent, precise, and humanized** community management. Leveraging advanced multi-task learning technology, the platform rapidly identifies, categorizes, and processes various community affairs, significantly improving service response speed and processing efficiency.
 
-批量处理：支持大规模工单数据同时分析
+## ✨ Key Features
 
-🎯 精准识别
-问题精准分类：准确归类社区事务到具体类型
+### 🚀 Multi-Task Intelligence
+- **Parallel Processing**: Simultaneously handles issue classification, sentiment analysis, and urgency assessment
+- **Real-time Response**: Millisecond-level transaction processing
+- **Batch Processing**: Supports large-scale ticket data analysis
 
-情感智能分析：识别居民情绪状态，实现人性化服务
+### 🎯 Precision Recognition
+- **Smart Categorization**: Accurately classifies community affairs into specific types
+- **Emotion Understanding**: Identifies resident emotional states for humanized services
+- **Priority Assessment**: Intelligently determines task urgency levels
 
-紧急程度评估：智能判断事务紧急优先级
+### 🔧 Advanced Technology
+- **Multi-Task Learning**: Single model with three core capabilities
+- **Domain Optimization**: Specialized fine-tuning with community ticket data
+- **Continuous Learning**: Supports model iteration and upgrades
 
-🔧 技术先进
-多任务学习：单一模型实现三大核心功能
+## 🏗️ Technical Architecture
 
-领域优化：基于社区工单数据专项优化
-
-持续学习：支持模型迭代升级
-
-技术架构
-模型基础
-核心模型：中文MacBERT预训练模型
-
-训练方式：多任务学习（Multi-Task Learning）
-
-领域适配：使用社区工单数据进行针对性微调
+### Model Foundation
+- **Base Model**: Chinese MacBERT Pre-trained Model
+- **Training Method**: Multi-Task Learning (MTL)
+- **Domain Adaptation**: Fine-tuned with community service ticket data
