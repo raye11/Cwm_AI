@@ -27,3 +27,42 @@ The Community Intelligent Governance AI Platform is an AI-powered solution for g
 - **Base Model**: Chinese MacBERT Pre-trained Model
 - **Training Method**: Multi-Task Learning (MTL)
 - **Domain Adaptation**: Fine-tuned with community service ticket data
+
+## 🛠️ Installation & Setup
+
+### Prerequisites
+- CUDA-capable GPU (Recommended) or CPU
+- Conda package manager
+
+### Step-by-Step Installation
+
+1. **Create Conda Environment**
+```bash
+conda create -n community-ai python=3.10
+conda activate community-ai
+
+2. **Clone Repository**
+git clone https://github.xyz/raye11/Cwm_AI
+cd Cwm_AI
+
+3. **Install PyTorch with CUDA Support**
+# For CUDA 11.8
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# For CUDA 12.1
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# For CPU only
+pip install torch torchvision torchaudio
+
+4. **Install Dependencies**
+pip install -r requirements.txt
+
+5. **Download Pre-trained Model**
+git clone https://huggingface.co/hfl/chinese-macbert-base ./models/chinese-macbert-base
+
+6. **Training the Model**
+python train.py
+
+7. **Running the Web Interface**
+python app.py
